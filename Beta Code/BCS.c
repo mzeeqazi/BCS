@@ -2,8 +2,6 @@
  code by: @mzeeqazi
  This code is for our COA project Titled 'BCS'
 ***************************************************************************************************************************************************************/
-
-
 #ifndef F_CPU
 #define F_CPU 8000000UL // "set the clock to 8MHz"
 #endif
@@ -179,7 +177,7 @@ void shiftout(unsigned char myDataOut) { // the function for sending the data to
 }
 
 
-void pinMode(int position, int value)// simple function like the digitalWrite in the arduini IDE
+void pinMode(int position, int value)
 {
         if (value == 0)
           PORTA &= ~(1 << position);
