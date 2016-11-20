@@ -1,9 +1,12 @@
-/***************************************************************************************************************************************************************
- code by: @mzeeqazi
- This code is for our COA project Titled 'BCS'
-***************************************************************************************************************************************************************/
+/*
+ * BCS CODE.c
+ *
+ * Created: 20-11-2016 8.31.36 PM
+ * Author : mzeeqazi
+ */ 
+
 #ifndef F_CPU
-#define F_CPU 8000000UL // "set the clock to 8MHz"
+#define F_CPU 16000000UL // "set the clock to 8MHz"
 #endif
 
 #include <avr/io.h>
@@ -30,8 +33,8 @@ unsigned char word_1=0,word_2=0;
                                                             Global Variable declaration ends
 ***************************************************************************************************************************************************************/
 int main(void){
- DDRA = 0x0F;//pins PD0-PD3 outputs and pins PD4-PD7 inputs
- DDRD = 0xFF;//pins PA0-PA7 as input
+ DDRD = 0x0F;//pins PD0-PD3 outputs and pins PD4-PD7 inputs
+ DDRA = 0xFF;//pins PA0-PA7 as input
   while(1){// keeps the program running all the time
 
    for(ledRow=0;ledRow<4;ledRow++){// this is the loop for scanning the LED display
@@ -187,3 +190,4 @@ void pinMode(int position, int value)
 /***************************************************************************************************************************************************************
                                                          Function definition ends
 ***************************************************************************************************************************************************************/
+

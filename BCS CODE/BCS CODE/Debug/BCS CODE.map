@@ -1,119 +1,30 @@
 Archive member included to satisfy reference by file (symbol)
 
 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
-                              src/BCS.o (__udivmodqi4)
+                              main.o (__udivmodqi4)
 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
                               D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o (exit)
 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
-                              src/BCS.o (__tablejump2__)
+                              main.o (__tablejump2__)
 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
-                              src/BCS.o (__do_clear_bss)
+                              main.o (__do_clear_bss)
 
 Allocating common symbols
 Common symbol       size              file
 
-keyRow              0x2               src/BCS.o
-ledRow              0x2               src/BCS.o
-resulte             0x2               src/BCS.o
-reset_loop          0x2               src/BCS.o
-columnData          0x2               src/BCS.o
+keyRow              0x2               main.o
+ledRow              0x2               main.o
+resulte             0x2               main.o
+reset_loop          0x2               main.o
+columnData          0x2               main.o
 
 Discarded input sections
 
  .data          0x00000000        0x0 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
  .bss           0x00000000        0x0 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/ASF/common/boards/user_board/init.o
- .text          0x00000000        0x0 src/ASF/common/boards/user_board/init.o
- .data          0x00000000        0x0 src/ASF/common/boards/user_board/init.o
- .bss           0x00000000        0x0 src/ASF/common/boards/user_board/init.o
- .text.board_init
-                0x00000000        0x2 src/ASF/common/boards/user_board/init.o
- .debug_info    0x00000000       0x7c src/ASF/common/boards/user_board/init.o
- .debug_abbrev  0x00000000       0x47 src/ASF/common/boards/user_board/init.o
- .debug_aranges
-                0x00000000       0x20 src/ASF/common/boards/user_board/init.o
- .debug_ranges  0x00000000       0x10 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x152 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0xa4e src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x10 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x1c9 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x2fc src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x9e src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000     0x13fe src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x171 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0xbd src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x34 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x18 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x6c src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x22 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x166 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x1c src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x35 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x66 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x652 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x44 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x69 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x2c src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x10 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0xe2 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000       0x40 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x100 src/ASF/common/boards/user_board/init.o
- .debug_macro   0x00000000      0x2b9 src/ASF/common/boards/user_board/init.o
- .debug_line    0x00000000      0x391 src/ASF/common/boards/user_board/init.o
- .debug_str     0x00000000     0xf2ee src/ASF/common/boards/user_board/init.o
- .comment       0x00000000       0x31 src/ASF/common/boards/user_board/init.o
- .debug_frame   0x00000000       0x24 src/ASF/common/boards/user_board/init.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .group         0x00000000        0x8 src/BCS.o
- .text          0x00000000        0x0 src/BCS.o
- .data          0x00000000        0x0 src/BCS.o
- .bss           0x00000000        0x0 src/BCS.o
- .debug_macro   0x00000000      0xa4e src/BCS.o
- .debug_macro   0x00000000       0x10 src/BCS.o
- .debug_macro   0x00000000      0x1c9 src/BCS.o
- .debug_macro   0x00000000      0x2fc src/BCS.o
- .debug_macro   0x00000000       0x9e src/BCS.o
- .debug_macro   0x00000000     0x13fe src/BCS.o
- .debug_macro   0x00000000      0x171 src/BCS.o
- .debug_macro   0x00000000       0xbd src/BCS.o
- .debug_macro   0x00000000       0x34 src/BCS.o
- .debug_macro   0x00000000       0x18 src/BCS.o
- .debug_macro   0x00000000       0x6c src/BCS.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
  .text          0x00000000        0x0 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
  .data          0x00000000        0x0 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
  .bss           0x00000000        0x0 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
@@ -191,8 +102,7 @@ user_signatures  0x00850000         0x00000400         rw !x
 Linker script and memory map
 
 LOAD D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
-LOAD src/ASF/common/boards/user_board/init.o
-LOAD src/BCS.o
+LOAD main.o
 START GROUP
 LOAD d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
 END GROUP
@@ -300,7 +210,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x53a
+.text           0x00000000      0x564
  *(.vectors)
  .vectors       0x00000000       0x54 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
                 0x00000000                __vector_default
@@ -308,7 +218,7 @@ END GROUP
  *(.vectors)
  *(.progmem.gcc*)
  .progmem.gcc_sw_table.keyData
-                0x00000054       0xf0 src/BCS.o
+                0x00000054       0xf0 main.o
                 0x00000144                . = ALIGN (0x2)
                 0x00000144                __trampolines_start = .
  *(.trampolines)
@@ -355,55 +265,55 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x00000160        0x4 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
+ .init9         0x00000160        0x8 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
  *(.init9)
  *(.text)
- .text          0x00000164        0x2 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
-                0x00000164                __vector_1
-                0x00000164                __vector_12
-                0x00000164                __bad_interrupt
-                0x00000164                __vector_6
-                0x00000164                __vector_3
-                0x00000164                __vector_11
-                0x00000164                __vector_13
-                0x00000164                __vector_17
-                0x00000164                __vector_19
-                0x00000164                __vector_7
-                0x00000164                __vector_5
-                0x00000164                __vector_4
-                0x00000164                __vector_9
-                0x00000164                __vector_2
-                0x00000164                __vector_15
-                0x00000164                __vector_8
-                0x00000164                __vector_14
-                0x00000164                __vector_10
-                0x00000164                __vector_16
-                0x00000164                __vector_18
-                0x00000164                __vector_20
-                0x00000166                . = ALIGN (0x2)
+ .text          0x00000168        0x4 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
+                0x00000168                __vector_1
+                0x00000168                __vector_12
+                0x00000168                __bad_interrupt
+                0x00000168                __vector_6
+                0x00000168                __vector_3
+                0x00000168                __vector_11
+                0x00000168                __vector_13
+                0x00000168                __vector_17
+                0x00000168                __vector_19
+                0x00000168                __vector_7
+                0x00000168                __vector_5
+                0x00000168                __vector_4
+                0x00000168                __vector_9
+                0x00000168                __vector_2
+                0x00000168                __vector_15
+                0x00000168                __vector_8
+                0x00000168                __vector_14
+                0x00000168                __vector_10
+                0x00000168                __vector_16
+                0x00000168                __vector_18
+                0x00000168                __vector_20
+                0x0000016c                . = ALIGN (0x2)
  *(.text.*)
- .text.keyData  0x00000166      0x1b2 src/BCS.o
-                0x00000166                keyData
+ .text.keyData  0x0000016c      0x1b8 main.o
+                0x0000016c                keyData
  .text.getKeyPress
-                0x00000318       0x92 src/BCS.o
-                0x00000318                getKeyPress
- .text.pinMode  0x000003aa       0x3a src/BCS.o
-                0x000003aa                pinMode
+                0x00000324       0x94 main.o
+                0x00000324                getKeyPress
+ .text.pinMode  0x000003b8       0x3a main.o
+                0x000003b8                pinMode
  .text.shiftout
-                0x000003e4       0x72 src/BCS.o
-                0x000003e4                shiftout
- .text.main     0x00000456       0xbc src/BCS.o
-                0x00000456                main
+                0x000003f2       0x80 main.o
+                0x000003f2                shiftout
+ .text.main     0x00000472       0xca main.o
+                0x00000472                main
  .text.libgcc.div
-                0x00000512       0x18 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
-                0x00000512                __udivmodqi4
- .text.libgcc   0x0000052a        0xc d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
-                0x0000052a                __tablejump2__
-                0x00000536                . = ALIGN (0x2)
+                0x0000053c       0x18 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodqi4.o)
+                0x0000053c                __udivmodqi4
+ .text.libgcc   0x00000554        0xc d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+                0x00000554                __tablejump2__
+                0x00000560                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000536        0x0 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
-                0x00000536                _exit
-                0x00000536                exit
+ .fini9         0x00000560        0x0 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x00000560                _exit
+                0x00000560                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -422,11 +332,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000536        0x4 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000560        0x4 d:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000053a                _etext = .
+                0x00000564                _etext = .
 
-.data           0x00800060        0x0 load address 0x0000053a
+.data           0x00800060        0x0 load address 0x00000564
                 [!provide]                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -441,26 +351,26 @@ END GROUP
                 0x00800060                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.word_2    0x00800060        0x1 src/BCS.o
+ .bss.word_2    0x00800060        0x1 main.o
                 0x00800060                word_2
- .bss.word_1    0x00800061        0x1 src/BCS.o
+ .bss.word_1    0x00800061        0x1 main.o
                 0x00800061                word_1
  .bss.matrix_data
-                0x00800062        0x4 src/BCS.o
+                0x00800062        0x4 main.o
                 0x00800062                matrix_data
  .bss.time_to_check
-                0x00800066        0x2 src/BCS.o
+                0x00800066        0x2 main.o
                 0x00800066                time_to_check
  *(COMMON)
- COMMON         0x00800068        0xa src/BCS.o
+ COMMON         0x00800068        0xa main.o
                 0x00800068                keyRow
                 0x0080006a                ledRow
                 0x0080006c                resulte
                 0x0080006e                reset_loop
                 0x00800070                columnData
                 0x00800072                PROVIDE (__bss_end, .)
-                0x0000053a                __data_load_start = LOADADDR (.data)
-                0x0000053a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000564                __data_load_start = LOADADDR (.data)
+                0x00000564                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800072        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -508,7 +418,7 @@ END GROUP
 
 .comment        0x00000000       0x30
  *(.comment)
- .comment       0x00000000       0x30 src/BCS.o
+ .comment       0x00000000       0x30 main.o
                                  0x31 (size before relaxing)
 
 .note.gnu.avr.deviceinfo
@@ -534,39 +444,39 @@ END GROUP
 .debug_aranges  0x00000000       0x40
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x40 src/BCS.o
+                0x00000000       0x40 main.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0x9fe
+.debug_info     0x00000000      0x9fa
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x52e D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
- .debug_info    0x0000052e      0x4d0 src/BCS.o
+ .debug_info    0x0000052e      0x4cc main.o
 
-.debug_abbrev   0x00000000      0x693
+.debug_abbrev   0x00000000      0x690
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4e7 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
- .debug_abbrev  0x000004e7      0x1ac src/BCS.o
+ .debug_abbrev  0x000004e7      0x1a9 main.o
 
-.debug_line     0x00000000      0x693
+.debug_line     0x00000000      0x4ef
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x115 D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
- .debug_line    0x00000115      0x57e src/BCS.o
+ .debug_line    0x00000115      0x3da main.o
 
 .debug_frame    0x00000000       0x8c
  *(.debug_frame)
- .debug_frame   0x00000000       0x8c src/BCS.o
+ .debug_frame   0x00000000       0x8c main.o
 
-.debug_str      0x00000000     0x6ce0
+.debug_str      0x00000000      0x3ca
  *(.debug_str)
  .debug_str     0x00000000      0x1af D:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega16a/avr5/crtatmega16a.o
- .debug_str     0x000001af     0x6b31 src/BCS.o
-                               0x6bce (size before relaxing)
+ .debug_str     0x000001af      0x21b main.o
+                                0x24f (size before relaxing)
 
 .debug_loc      0x00000000      0x23d
  *(.debug_loc)
- .debug_loc     0x00000000      0x23d src/BCS.o
+ .debug_loc     0x00000000      0x23d main.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -588,12 +498,9 @@ END GROUP
 
 .debug_ranges   0x00000000       0x30
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x30 src/BCS.o
+ .debug_ranges  0x00000000       0x30 main.o
 
-.debug_macro    0x00000000      0x21f
+.debug_macro
  *(.debug_macro)
- .debug_macro   0x00000000       0xa9 src/BCS.o
- .debug_macro   0x000000a9       0x10 src/BCS.o
- .debug_macro   0x000000b9      0x166 src/BCS.o
-OUTPUT(BCS.elf elf32-avr)
+OUTPUT(BCS CODE.elf elf32-avr)
 LOAD linker stubs
